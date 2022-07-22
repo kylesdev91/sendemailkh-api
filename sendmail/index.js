@@ -10,7 +10,7 @@ module.exports = async function (context, req) {
         });
 
         const mailOptions = {
-            from: "eands9@yahoo.com",
+            from: "kffsande@outlook.com",
             to: "kffsande@outlook.com",
             subject: req.body.emailSubject,
             text: req.body.emailBody,
